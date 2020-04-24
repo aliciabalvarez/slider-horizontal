@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+::-webkit-scrollbar {display: none;}
+body{
+    background-color: rgb(126, 166, 173);
+    color: white;
+}
+.custom-cursor{
+    cursor: url('./alfiler.svg');
+    width: 20px;
+}
+h1{
+    text-align: center;
+    margin-top: 200px;
+}
+h2{
+    font-size: 17px;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: normal;
+}
+.galeria{
+    width: 100%;
+    display: flex;
+}
+.galeria img{
+    width: 20%;
+}
+.principal{
+    display: flex;
+    overflow-x: auto;
+}
+.principal img{
+    width: 100%;
+}
